@@ -93,7 +93,7 @@ function toggleDarkMode() {
 
   document.querySelectorAll('.card').forEach(card => {
     card.classList.toggle("bg-dark");
-    card.classList.toggle("text-white");
+    card.classList.toggle("text-black");
   });
 }
 function displayRecipes(meals) {
